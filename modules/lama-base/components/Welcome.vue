@@ -80,12 +80,12 @@
 </template>
 
 <script>
-import IconTelegram from 'assets/icons/icon-telegram.svg?inline'
-import IconTwitch from 'assets/icons/icon-twitch.svg?inline'
-import IconTwitter from 'assets/icons/icon-twitter.svg?inline'
-import IconYoutube from 'assets/icons/icon-youtube.svg?inline'
-import IconNuxt from 'assets/icons/icon-nuxt.svg?inline'
-import IconGithub from 'assets/icons/icon-github.svg?inline'
+import IconTelegram from '../assets/icons/icon-telegram.svg?inline'
+import IconTwitch from '../assets/icons/icon-twitch.svg?inline'
+import IconTwitter from '../assets/icons/icon-twitter.svg?inline'
+import IconYoutube from '../assets/icons/icon-youtube.svg?inline'
+import IconNuxt from '../assets/icons/icon-nuxt.svg?inline'
+import IconGithub from '../assets/icons/icon-github.svg?inline'
 
 export default {
   name: 'Welcome',
