@@ -3,15 +3,15 @@ export default {
   head: {
     title: 'youtube-nuxt-extend-plugins',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'format-detection', content: 'telephone=no' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   components: true,
@@ -24,7 +24,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '~/modules/lama-base',
+    // '~/modules/lama-base',
     // 'C:\\Users\\romai\\Documents\\Projects\\LamaCodeur\\Code\\youtube-nuxt-base\\src',
-  ],
+    'youtube-nuxt-base'
+  ]
 }
